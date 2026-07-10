@@ -123,9 +123,3 @@ python src/predict.py --symbol AAPL --source mongo
 This fetches a recent window of records from the live API, rebuilds the
 Lag_1 / Lag_7 / Rolling_mean_7 features exactly as in Task 1, loads
 `models/aapl_close_predictor.joblib`, and prints a next-day close prediction.
-
-## Team contributions
-
-See [`CONTRIBUTIONS.md`](CONTRIBUTIONS.md) — required by the rubric's
-"Individual Technical Contribution" criterion. Fill in per-member roles and
-commit history before submitting.
