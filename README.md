@@ -56,6 +56,7 @@ notebook's interpretation for why).
 
 To regenerate the model artifact used by Task 4 without re-running the whole
 notebook:
+
 ```bash
 python src/train_model.py
 ```
